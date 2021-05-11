@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+.logo-container{
+    display: none;
+    margin-top: 3em;
+    width: 100%;
+    height: 8em;
+}
+.Tittle, .logo-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.main-container{
+    width: 100%; 
+    min-height: 100vh;
+    background-image: url(../Img/Imagen\ de\ fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(217, 252, 244, 0.8),rgba(255, 255, 255, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-xd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container2{
+    width: 100%;
+    font-size: 2.2em;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.register-container{
+    color: #474747;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    height: 4.7em;
+}
+.texto{
+    display: flex;
+    color: #98E4E0;
+    font-size: 1.3em;
+}
+.canal{
+    background-color: #C4C4C4;
+    border-radius: 0.8em;
+    width: 20em;
+    height: 1.8em;
+    border: 0px;
+  
+}
+.boton{
+    margin-top: 0.4em;
+    margin-bottom: 0.7em;
+    background-color: #98E4E0;
+    width: 9em;
+    height: 2.3em;
+    color: #595959;
+    font-size: 1.8em;
+    font-family: 'Russo One', sans-serif;
+    border: 0px;
+}
+.boton2{
+    background-color: #98E4E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 2.3em;
+    color: #595959;
+    font-size: 1.8em;
+    font-family: 'Russo One', sans-serif;
+    border: 0px;
+    text-decoration: none;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 20vh;
+}
+.link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    padding: 1em;
+    width: 100%;
+    color: white;
+}
+
+
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+    .main-container{
+        height: 100vh;
+        background-image: none;
+    }
+    .bg-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-image: none;
+    }
+    .Tittle{
+        margin: 0px;
+        width: 50%; 
+        height: 100vh;
+        background-image: url(../Img/Imagen\ de\ fondo3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .logo-container{
+        width: 6em;
+        display: block;
+        margin-bottom: 12em;
+    }
+    .logo-bg{
+        margin: 0px;
+        font-size: 2.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(217, 252, 244, 0.8), rgba(255,255,255,0.3));
+    }
+    .form-container{
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(156, 156, 156, 1), rgba(0, 0, 0, 1));
+    }
+    .logo-container2{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-bottom: 0em;
+        font-size: 1.7em;
+    }
+    .register-container{
+        display: block;
+    }
+    .register-title{
+        font-size: 1.3em;
+        color: white;
+        margin-bottom: ;
+    }
+    .canal{
+        background-color: white;
+        width: 32em;
+        height: 1.8em;
+    }
+    .boton{
+        width: 50%;
+        height: 70%;
+        font-size: 1.4em;
+    }
+    .boton2{
+        width: 50%;
+        height: 70%;
+        font-size: 1.4em;
+    }
+    .form-xd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

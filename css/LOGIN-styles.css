@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+.Tittle, .logo-bg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.logo-tittle2{
+    color: #98E4E0;
+}
+.main-container{
+    width: 100%; 
+    min-height: 100vh;
+    background-image: url(../Img/Imagen\ de\ fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(217, 252, 244, 0.8),rgba(255, 255, 255, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-xd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container2{
+    width: 100%;
+    font-size: 2.2em;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    height: 4.7em;
+}
+.texto{
+    display: flex;
+    color: #98E4E0;
+    font-size: 1.3em;
+}
+.canal{
+    background-color: #C4C4C4;
+    border-radius: 0.8em;
+    width: 20em;
+    height: 1.8em;
+    border: 0px;
+  
+}
+.boton{
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    background-color: #98E4E0;
+    width: 9em;
+    height: 2.3em;
+    color: #595959;
+    font-size: 1.8em;
+    font-family: 'Russo One', sans-serif;
+    border: 0px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 20vh;
+}
+.link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    width: 100%;
+    color: white;
+}
+
+.logo-container{
+    margin-top: 2em;
+    width: 100%;
+    height: 6em;
+}
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+    .main-container{
+        height: 100vh;
+        background-image: none;
+    }
+    .bg-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-image: none;
+    }
+    .Tittle{
+        margin-top: 2em;
+        width: 50%; 
+        height: 100vh;
+        background-image: url(../Img/Imagen\ de\ fondo3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo-bg{
+        margin: 0px;
+        font-size: 2.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(217, 252, 244, 0.8), rgba(255,255,255,0.3));
+    }
+    .form-container{
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(156, 156, 156, 1), rgba(0, 0, 0, 1));
+    }
+    .logo-container2{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-bottom: 1.5em;
+        font-size: 1.7em;
+    }
+    .canal{
+        background-color: white;
+        width: 32em;
+        height: 1.8em;
+    }
+    .boton{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 50%;
+        height: 70%;
+        font-size: 1.4em;
+    }
+    .form-xd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-tittle, .logo-tittle2{
+        margin-bottom: 5em;
+    }
+    .logo-container{
+        margin-top: 3em;
+        width: 10em;
+    }
+}

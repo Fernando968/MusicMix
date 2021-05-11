@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
+.playing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    height: 3.3em;
+
+}
+.controls-container{
+    background: linear-gradient(rgba(106, 204, 233, 1), rgba(188, 234, 231, 1));
+    width: 80%;
+    height: 3.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4em;
+    bottom: 0px;
+}
+.controls-container-desktop{
+    display: none;
+}
+.controls-container button{
+    border: 0px;
+    background: none;
+}
+.nav-home > img{
+    width: 1.8em;
+    height: 1.8em;
+    margin-left: 1em;
+}
+.nav-favorites > img{
+    width: 1.8em;
+    height: 1.8em;
+
+}
+.nav-notifications > img{
+    width: 1.8em;
+    height: 1.8em;
+}
+.nav-search > img{
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 1em;
+
+}
+.general-container-desktop{
+    display: none;
+}
+
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+    .main-container{
+    }
+    .bg-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .controls-container{
+        display: none;
+    }
+    .playing-container{
+        display: block;
+        width: 25%;
+        height: 100vh;
+        margin:0px;
+        bottom: 0px;
+        position: relative;
+        background-color: #444444;
+    }
+    .controls-container-desktop{
+        display: block;
+    }
+    .controls-desktop{
+        margin-left: 2em;
+        margin-top: 3em;
+    }
+    .main-container-desktop > img{
+        width: 4em;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .control-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .control-container button{
+        background: none;
+        border:none;
+    }
+    .control-container button > img{
+        width: 2em;
+    }
+    .control-container > h2{
+        color: #7A7A7A;
+        font-family: 'Farro', sans-serif;
+        font-weight: normal;
+        font-size: 1.2em;
+        margin-left: 0.8em;
+    }
+
+    
+}
