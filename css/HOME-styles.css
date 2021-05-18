@@ -124,6 +124,8 @@
 }
 .img-principal-container{
     display: none;
+    width: 100%;
+    height: 50vh;
 }
 .information-container{
     display: none;
@@ -144,21 +146,15 @@
     .main-menu > img{
         width: 2.8em;
     }
-    .img-especial-container{
-        width: 100%;
-        height: 100%;
-    }
     .img-principal-container{
         display: block;
-        width: 100%;
-        height: 100%;
     }
     .img-principal-container > img{
         object-fit: cover;
         position: relative;
         margin: 0px;
         width: 100%;
-        height: 100%;
+        height: 50vh;
     }
     .main-menu > img{
         position: absolute;
